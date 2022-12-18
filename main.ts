@@ -40,7 +40,7 @@ while (true){
             } else if (Math.abs((endTime - startTime) - randTime) >= 400) {
                 score = "DOBRE"
             } else if (Math.abs((endTime - startTime) - randTime) >= 150) {
-                score = "UZASNE"
+                score = "SKVELE"
             } else if (Math.abs((endTime - startTime) - randTime) <= 75) {
                 score = "PERFEKTNI"
             }
